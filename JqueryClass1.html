@@ -1,0 +1,27 @@
+<!doctype html >
+    <html>
+    <head>
+       <title> jQuery Course </title> 
+        <style> </style> 
+    </head> 
+    <body>
+    <div id = "output" > Output2 Content </div> 
+<div class = "one" > Some content </div> 
+<div id="myInput" class = "one"  > Some content </div> 
+<div class = "two" > Some content </div> 
+<div class = "red" > Some content </div> 
+<input type="text" value="HELLO CLASS" id="myInput"> 
+
+<script src = "./jquery-3.4.1.min.js"> </script>
+<script>
+$(document).ready(function() {
+    $(".one").html("Dog");
+    $(".two").text("Cat");
+    $(".two").html("LION");
+    $("#myInput").val("Tiger");
+})
+</script> 
+
+</body> 
+
+</html>
